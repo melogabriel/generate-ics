@@ -3,8 +3,8 @@ function generateICSFile() {
   const data = sheet.getDataRange().getValues();
   const headers = data[0];
 
-  const nameIndex = headers.indexOf("Name Column"); // insert name of column with names
-  const birthdateIndex = headers.indexOf("Birthdate Column"); // insert name of column with birthdates
+  const nameIndex = headers.indexOf("Full Name"); // insert name of column with names
+  const birthdateIndex = headers.indexOf("Date of Birth"); // insert name of column with birthdates
 
   if (nameIndex === -1 || birthdateIndex === -1) {
     throw new Error("Column headers not found. Check the headers.");
