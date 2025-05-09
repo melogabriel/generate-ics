@@ -23,7 +23,7 @@ Your Google Sheet must contain the following columns in **row 1**:
 
 1. Open your Google Sheet
 2. Go to **Extensions > Apps Script**
-3. Delete any existing code and paste the contents of [`generateICSFile.js`](generateICS.js)
+3. Delete any existing code and paste the contents of [`generateICSFile.js`](generateICSFile.js)
 4. Save the script (Ctrl+S or Cmd+S)
 5. Click the **Run ▶️ `generateICSFile`** button
 6. When prompted, review and authorize the script
