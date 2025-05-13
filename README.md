@@ -1,3 +1,6 @@
+[![Deploy Jekyll with GitHub Pages dependencies preinstalled](https://github.com/melogabriel/generate-ics/actions/workflows/jekyll-gh-pages.yml/badge.svg)](https://github.com/melogabriel/generate-ics/actions/workflows/jekyll-gh-pages.yml)
+
+
 # 🎂 Birthday Calendar Exporter (.ics) from Google Sheets
 
 This Google Apps Script generates a valid `.ics` (iCalendar) file with recurring birthday events from a Google Sheet. The file can be imported into **Google Calendar**, **Outlook**, **Apple Calendar**, and other calendar applications.
